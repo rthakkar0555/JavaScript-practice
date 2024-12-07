@@ -7,7 +7,7 @@ let obj=null // object/ null is stand alone value
 console.log(typeof undefined)
 console.log(typeof null)
 console.log(typeof name)
-console.log(typeof NaN) // number
+console.log(typeof(NaN)) // number // another way to use typeof
 console.log(typeof Infinity) // number
 
 // number
