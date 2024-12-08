@@ -57,3 +57,9 @@ console.log(null == 0) ; // false because in this null is  loosely undifined
 console.log(null >= 0) ; // true because in this null is 0
 
 console.log(undefined == 0) // fasle
+
+// primitive 
+/* string , number , boolean , null , sybole , bigint , null , undefined */
+
+// non- primitive
+/* function(callebel object) , array(object) , object  */
