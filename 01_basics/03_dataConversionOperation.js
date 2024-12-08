@@ -50,3 +50,10 @@ console.log(typeof stringNumber)
 let s=String(null); // null
 console.log(s); 
 // continue your investigation
+
+// operation interview
+
+console.log(null == 0) ; // false because in this null is  loosely undifined
+console.log(null >= 0) ; // true because in this null is 0
+
+console.log(undefined == 0) // fasle
