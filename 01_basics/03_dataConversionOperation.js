@@ -63,3 +63,26 @@ console.log(undefined == 0) // fasle
 
 // non- primitive
 /* function(callebel object) , array(object) , object  */
+
+// stack and heap
+
+/* primitive are stored in stack and non - primetive are stored in heap memory
+ in stack it will give us copy of variable we declared
+ but in heap we got the reference of orignal value 
+*/
+
+// primitive 
+let valueOne= "rishi";
+let valueTwo=valueOne
+valueTwo="Thakkar"// not affect on valueone
+console.table([valueOne,valueTwo])
+
+// non primitive
+
+let user={
+    name: "rishi",
+    age:18
+}
+let usertwo=user
+usertwo.name="thakkar" // will afect on user
+console.table([user,usertwo])
